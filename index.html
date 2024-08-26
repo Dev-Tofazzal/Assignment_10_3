@@ -27,9 +27,9 @@
      </style>
 
 </head>
-<body class="md:container md:mx-auto">
+<body>
     <!-- header part start here -->
-    <header>
+    <header class="md:container md:mx-auto">
         <!-- nav part start here -->
          <nav>
             <div class="navbar bg-base-100">
@@ -37,7 +37,7 @@
                   <div class="dropdown">
                     <ul
                       tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-[#737373]">
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-[#737373] font-bold">
                       <li ><a>Home</a></li>
                       <li><a>Services</a></li>
                       <li><a>Portfolio</a></li>
@@ -49,7 +49,7 @@
                   <a class="font_manrope text-3xl font-bold text-[#212121]">Rinterio</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1 text-[#737373]">
+                  <ul class="menu menu-horizontal px-1 text-[#737373] font-bold">
                       <li><a>Home</a></li>
                       <li><a>Services</a></li>
                       <li><a>Portfolio</a></li>
@@ -84,11 +84,69 @@
               </div>
          </nav>
         <!-- nav part end here -->
+        <!-- banner part start here -->
+         <section class="">
+            <div class="banner_img flex justify-center">
+                <img src="images/banner.png" alt="">
+            </div>
+            <div class="banner_title text-center">
+                <h1 class="text-[#212121]  text-4xl font-bold my-4 md:text-6xl md:font-extrabold md:my-5">A barn house of this design has a striking appearance</h1>
+                <p class="text-[#494949] md:px-60 px-2 py-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal  accents, and large windows that flood the space with natural light.</p>
+                <div class="btn bg-[#ABEF5F80]">
+                    <a href="">View Details</a>
+                    <i class="fa-solid fa-arrow-right -rotate-45 mr-3 bg-[#ABEF5F] w-6 h-6 justify-center items-center flex rounded-full"></i>
+                </div>
+            </div>
+         </section>
+        <!-- banner part end here -->
     </header>
     <!-- header part end here -->
     <!--main part start here  -->
     <main>
-
+      <section class="bg-[#f1f5f9]  mt-24" >
+        <!-- liveable part start here -->
+         <div class="md:container md:mx-auto md:pt-28 p-6 ">
+          <!-- liveable card -->
+           <div class="md:flex md:justify-between md:pt-6 max-sm:flex max-sm:flex-col ">
+             <div>
+                <div class="flex justify-center items-center gap-2 border bg-[#FFFFFF] w-28 rounded-full md:mb-3 max-sm:mx-auto ">
+                  <i class="fa-solid fa-arrow-right"></i>
+                  <h3>About Us</h3>
+                </div>
+                <div>
+                  <h1 class="text-[#212121] font-bold text-2xl  md:text-4xl  py-2 max-sm:text-center">We design thoughtful, liveable spaces</h1>
+                  <p class="text-[#494949] md:w-5/6 md:py-8 max-sm:text-center max-sm:py-3 rounded">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood sleek metal accents.</p>
+                </div>
+                <!-- left card down 1st card  -->
+                <div class="flex md:items-center gap-8 border md:w-5/6 md:p-5 p-2 rounded-2xl">
+                  <div>
+                    <img src="images/commercial.png" alt="">
+                  </div>
+                  <div>
+                    <h1 class="text-[#494949] font-bold ">Commercial</h1>
+                    <p class="text-[#737373] md:w-5/6">The barn house captivates with its blend of rustic charm and modern.</p>
+                  </div>
+                </div>
+                <!-- left card down 2nd card -->
+                <div class="flex md:items-center gap-8 border md:w-5/6 md:p-5 p-2 md:mt-10 rounded-2xl max-sm:my-6">
+                  <div>
+                    <img src="images/residential.png" alt="">
+                  </div>
+                  <div>
+                    <h1 class="text-[#494949] font-bold">Residential</h1>
+                    <p class="text-[#737373] md:w-5/6">The barn house captivates with its blend of rustic charm and modern.</p>
+                  </div>
+                </div>
+             </div>
+             <!-- card right start -->
+             <div class="liveable_img  ">
+              <img  src="images/Rectangle.png" alt="">
+             </div>
+           </div>
+           
+         </div>
+        <!-- liveable part end here -->
+      </section>
     </main>
     <!--main part end here  -->
     <!-- footer part start here -->
